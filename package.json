@@ -1,5 +1,5 @@
 {
-  "name": "web2kelompok",
+  "name": "pweb-asikeun",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
   }
 }
