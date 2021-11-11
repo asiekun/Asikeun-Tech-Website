@@ -4,22 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <title>Profil</title>
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Home</title>
+
   <body>
     <!-- Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="" height="50" width="240" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="" height="50" width="280" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#home"><b>Home</b></a>
             </li>
@@ -35,10 +49,10 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><b>Sejarah</b></a>
             </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+    </nav>  
     <!-- Akhir Navbar -->
 
     <!-- Background -->
@@ -53,13 +67,29 @@
         </div>
       </div>
     </section>
-
     <!-- Akhir Background -->
+
+    <!-- Background 2 -->
+    <section>
+      <div style="background-image: url(/assets/img/bg3_1.png); height: 600px; background-size: cover">
+        <div class="container">
+          <div class="d-flex flex-column align-items-end text-white">
+            <h1 class="text-start" style="font-size: 5em"><br><b>Pilihan #1<br/></h1>
+            <h1 class="text-center" style="font-size: 3em"><b>Dalam<br/></h1>
+            <h1 class="text-end" style="font-size: 3em"><b>Mengembangkan<br/></h1>
+            <h1 class="text-center" style="font-size: 3em"><b>Bisnis Anda<br/></h1>
+            <br /><br>
+            <h2 class="text-center">Asikeun Aja Kuy!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Background 2-->
 
     <!-- Konten -->
     <section>
-    <h2 class="md-4 text-center p-3 "style="color: #f9663a;" ><b>Apa yang Kami Tawarkan?</h2>
-    <div class="row row-cols-1 row-cols-md-3">
+    <br><h2 class="md-4 text-center p-3"style="color: #f9663a;" ><b>Apa Yang Kami Tawarkan?</h2><br>
+    <div class="row row-cols-1 row-cols-md-3" >
       <div class="col mb-4">
         <div class="card h-100">
           <img src="/assets/img/web.png" class="card-img-top" alt="logo_web" height="400px">
@@ -91,6 +121,45 @@
   </section>
     <!-- Akhir Konten -->
 
+    <!-- JQuery Slider-->
+  <section>
+   <br><h2 class="md-4 text-center p-3 "style="color: #f9663a;" ><b>Bergabung Bersama kami!</h2><br>
+    <div class="owl-carousel owl-theme">
+        <div class="slide slide-1">
+            <div class="slide-content">
+                <h1>Lingkungan yang suportif</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-content">
+                <h1>Upgrade skillmu</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-content">
+                <h1>Membangun dan tumbuh berkembang bersama</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
+            </div>
+        </div>
+        <div class="slide slide-4">
+            <div class="slide-content">
+                <h1>lingkungan kerja yang santuy</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi dolores vero fugit optio veritatis in doloremque dolore esse? Iste odio molestiae earum cumque, quia dignissimos. Eaque expedita doloribus quos?</p>
+            </div>
+        </div>
+        <div class="slide slide-5">
+            <div class="slide-content">
+                <h1>asikeun aja kuy!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi dolores vero fugit optio veritatis in doloremque dolore esse? Iste odio molestiae earum cumque, quia dignissimos. Eaque expedita doloribus quos?</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <br>
+    <!-- Akhir JQuery Slider-->
+
     <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
@@ -99,7 +168,7 @@
   >
     <!-- Left -->
     <div class="me-5 d-none d-lg-block ">
-      <img src="/assets/img/logo.png" alt="" height="60" width="350" style="padding-left: 70px;">
+      <img src="/assets/img/logo.png" alt="" height="100" width="580" style="padding-left: 70px;">
     </div>
     <!-- Left -->
 
@@ -114,7 +183,7 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem "></i>Alamat
+            <i class="fas "></i>Alamat
           </h6>
           <p>
             One Pasific Place Sudirman Central Business District 8th Floor, Jl Jend. Sudirman Kav.52-53 Jakarta, Indonesia
@@ -183,9 +252,32 @@
     Team Asikeun
   </div>
   <!-- Copyright -->
-</footer>
-<!-- Footer -->
-    <!-- Akhir Footer -->
+  </footer>
+  <!-- Footer -->
+  
+  <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Custom Javascript -->
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items:1,
+                loop:true,
+                nav:true,
+                dots:true,
+                autoplay:true,
+                autoplaySpeed:1000,
+                smartSpeed:1500,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
   </body>
 </html>
