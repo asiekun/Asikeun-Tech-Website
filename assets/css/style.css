@@ -126,3 +126,16 @@
 .owl-next {
   right: 1%;
 }
+
+@media screen and (min-width: 480px) {
+  .logo-bawah img {
+    height: 80px;
+    width: 400px;
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .background {
+    width: 100%;
+  }
+}
