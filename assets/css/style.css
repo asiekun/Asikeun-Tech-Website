@@ -37,23 +37,23 @@
 }
 
 .slide-1 {
-  background-image: url(assets/img/1.gif);
+  background-image: url(/assets/img/1.gif);
 }
 
 .slide-2 {
-  background-image: url(assets/img/2.gif);
+  background-image: url(/assets/img/2.gif);
 }
 
 .slide-3 {
-  background-image: url(assets/img/3.gif);
+  background-image: url(/assets/img/3.gif);
 }
 
 .slide-4 {
-  background-image: url(assets/img/4.gif);
+  background-image: url(/assets/img/4.gif);
 }
 
 .slide-5 {
-  background-image: url(assets/img/5.gif);
+  background-image: url(/assets/img/5.gif);
 }
 
 .slide-content {
