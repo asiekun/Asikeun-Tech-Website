@@ -139,3 +139,13 @@
     width: 100%;
   }
 }
+
+.nav-item :hover {
+  background-color:#f9663a;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  color: white;
+}
