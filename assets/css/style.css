@@ -127,6 +127,16 @@
   right: 1%;
 }
 
+.nav-item :hover {
+  background-color:#f9663a;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
 @media screen and (min-width: 480px) {
   .logo-bawah img {
     height: 80px;
@@ -138,14 +148,6 @@
   .background {
     width: 100%;
   }
-}
 
-.nav-item :hover {
-  background-color:#f9663a;
-  color: white;
-  border-radius: 5px;
-}
-
-.nav-link:hover {
-  color: white;
+  
 }
