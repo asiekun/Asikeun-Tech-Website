@@ -1,112 +1,99 @@
 .card {
-    cursor: pointer
+  cursor: pointer;
 }
 
 .hd {
-    font-size: 25px;
-    font-weight: 550
+  font-size: 25px;
+  font-weight: 550;
 }
 
 .card.hover,
 .card:hover {
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .img {
-    margin-bottom: 35px;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222)
+  margin-bottom: 35px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .card-title {
-    font-weight: 600
+  font-weight: 600;
 }
 
 button.focus,
 button:focus {
-    outline: 0;
-    box-shadow: none !important
+  outline: 0;
+  box-shadow: none !important;
 }
 
 .ft {
-    margin-top: 25px
+  margin-top: 25px;
 }
 
 .chk {
-    margin-bottom: 5px
+  margin-bottom: 5px;
 }
 
 .rck {
-    margin-top: 20px;
-    padding-bottom: 15px
+  margin-top: 20px;
+  padding-bottom: 15px;
 }
 
-.home-testimonial {
-    height: 380px
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px -10px 0px #f9663a;
 }
 
-.home-testimonial-bottom {
-    background-color: #f8f8f8;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    position: relative;
-    height: 130px;
-    top: 190px
+@media (max-width: 767px) {
+  .card {
+    margin: 1rem 0.7rem 1rem;
+    max-width: 80vw;
+  }
 }
 
-.home-testimonial h3 {
-    color: var(--orange);
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase
+.col-md-4 {
+  padding: 0 0.5rem;
 }
 
-.home-testimonial h2 {
-    color: white;
-    font-size: 28px;
-    font-weight: 700
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: 'IM Fell French Canon SC';
 }
 
-.testimonial-inner {
-    position: relative;
-    top: -174px
+.card-text {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: rgb(82, 81, 81);
+  line-height: 1.4rem;
 }
 
-.testimonial-pos {
-    position: relative;
-    top: 24px
+.footer {
+  border-top: none;
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 2rem 0 1.4rem 0;
+  font-family: 'Varela Round';
 }
 
-.testimonial-inner .tour-desc {
-    border-radius: 5px;
-    padding: 40px
+#name {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-.color-grey-3 {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
-    color: #6c83a2
+#position {
+  font-size: 0.7rem;
 }
 
-.testimonial-inner img.tm-people {
-    width: 60px;
-    height: 60px;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-width: none
+a {
+  color: #f9663a;
+  font-weight: bold;
 }
 
-.link-name {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
-    color: #6c83a2
-}
-
-.link-position {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 12px;
-    color: #6c83a2
+a:hover {
+  color: #f9663a;
 }

@@ -1,9 +1,21 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', 'Anton', serif;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/laptop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.banner2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nasa.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .owl-carousel {
@@ -21,7 +33,7 @@
 }
 
 .slide::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -60,19 +72,19 @@
 }
 
 .slide-content h1 {
-  font-family: "Anton", serif;
+  font-family: 'Anton', serif;
   font-size: 45px;
   text-transform: uppercase;
 }
 
 .slide-content p {
-  font-family: "Lato", serif;
+  font-family: 'Lato', serif;
   font-size: 18px;
   margin-bottom: 20px;
 }
 
 .slide-content button {
-  font-family: "Roboto", serif;
+  font-family: 'Roboto', serif;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -122,26 +134,7 @@
 }
 
 .nav-item :hover {
-  background-color:#f9663a;
-  color: white;
+  background-color: #f9663a;
+  color: #fff;
   border-radius: 5px;
-}
-
-.nav-link:hover {
-  color: white;
-}
-
-@media screen and (min-width: 480px) {
-  .logo-bawah img {
-    height: 80px;
-    width: 400px;
-    justify-content: center;
-    padding-left: 0px;
-  }
-
-  .background {
-    width: 100%;
-  }
-
-  
 }
